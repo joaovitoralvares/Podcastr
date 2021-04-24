@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { usePlayer } from '../../pages/contexts/PlayerContext';
+import { usePlayer } from '../../contexts/PlayerContext';
 import Image from 'next/image';
 import Slider from 'rc-slider';
 import { convertDurationToTimeString } from '../../utils/convertDurationToTimeString';

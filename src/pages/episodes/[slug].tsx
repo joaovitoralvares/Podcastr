@@ -6,7 +6,7 @@ import { api } from '../../services/api';
 import { format, parseISO } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
 import { convertDurationToTimeString } from '../../utils/convertDurationToTimeString';
-import { usePlayer } from '../../pages/contexts/PlayerContext';
+import { usePlayer } from '../../contexts/PlayerContext';
 
 import styles from './episode.module.scss';
 

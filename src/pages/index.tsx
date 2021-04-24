@@ -5,7 +5,7 @@ import { format, parseISO } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
 import { api } from '../services/api';
 import { convertDurationToTimeString } from '../utils/convertDurationToTimeString';
-import { usePlayer } from './contexts/PlayerContext';
+import { usePlayer } from '../contexts/PlayerContext';
 
 import styles from './home.module.scss';
 
